@@ -112,7 +112,8 @@ p {
 .container-bottom h2 {
   align-self: flex-start;
   color: var(--collor-button-continue);
-  margin-top: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .container-actions {
@@ -125,7 +126,7 @@ p {
   align-items: center;
   border-radius: 10px;
   display: flex;
-  height: 55px;
+  height: 56px;
   justify-content: space-between;
   padding: 0 1.5rem;
   width: 100%;
