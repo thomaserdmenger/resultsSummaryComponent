@@ -52,6 +52,7 @@ buttonFour.appendChild(buttonFourMedia)
 // Function to create icons
 function createIcon() {
   const newIcon = document.createElement('img')
+  newIcon.setAttribute('alt', '#')
   return newIcon
 }
 
