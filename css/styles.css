@@ -46,6 +46,22 @@ p {
   margin: 0;
 }
 
+button {
+  height: 5.5rem;
+  width: 31rem;
+  border: none;
+  border-radius: 35px;
+  background-color: var(--collor-button-continue);
+  color: var(--color-background-container);
+  margin-top: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(hsla(252, 100%, 60%, 0.9), hsla(241, 81%, 54%, 1));
+}
+
 .container {
   width: 375px;
   height: 809px;
@@ -66,7 +82,8 @@ p {
 }
 
 .container-top h2,
-.container-bottom h2 {
+.container-bottom h2,
+button {
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -160,6 +177,10 @@ p {
   margin-right: 1rem;
 }
 
+.media-action {
+  font-weight: 700;
+}
+
 .media-action,
 .numbers-one,
 .numbers-two {
@@ -190,4 +211,5 @@ p {
 
 .numbers-two {
   color: hsl(283, 4%, 63%);
+  font-weight: 700;
 }
